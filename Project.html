@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgreen;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;">¿Qué es la Ingeniería Sanitaria?</h1>
+<p style="text-align:center;"><em style="color:tomato;">¿Su rol es importante para la sociedad de hoy en día?</em></p>
+<h3><ins>Breve importancia de la ingeniería:</ins></h3>
+<p style="font-family:Arial" style="text-align:justify;"><span style="color:brown">La ingeniería ha trascendido durante generaciones y como consecuencia distintas aplicaciones a la sociedad;
+    es decir el rol que tiene la ingeniería en distintas areas. Puesto que desde la primera Revolución Industrial en 1760 
+    han surgido muchas necesidades a nivel industrial y social; es asi como la ingeniería ha podido plantear soluciones.
+    Y hoy día se aprecian muchoas obras o poryectos que son parte de la aplicación de la ingeniería pero todo esto también es posible
+    al avance significativo de la tecnología; ya que son dos areas que se complementan.</span></p>
+    <p style="font-family:Arial" style="text-align:justify;"><span style="color:brown">Por otra parte, al existir muchas áreas donde la ingeniería puede aplicarse, es que existen distintas 
+    especialidades para cubrir diferentes necesidades y cada una de ellas con cierto grado de complejidad; asimismo algo esencial para la ingeniría es tener una
+    formación sólida en matemática y ciencias (física, química, biología,etc.). Debido que hay muchos conceptos que son aplicables a situaciones
+    de la vida real y eso implica ser alguien apasionado por las ciencias y la matemática.</span>
+    </p>
+    <h5 style="text-align:center;">Image 1</h5>
+    <center><img src="inge1.jpg" alt="inge1" style="width:600px;height:300px;"></center>
+
+    <h3><ins>La Ingenieria Sanitaria</ins></h3>
+    <p style="font-family:Arial" style="text-align:justify;">A nivel mundial la Ingeniería Sanitaria tiene un desempeño importante para la sociedad; ya que hay muchas áreas que esta ingeniería
+      puede abarcar; sin embargo a nivel nacional esta profesión no es muy conocida y sus profesionales son un poco escasos. Asimismo, algo 
+      a rescatar en esta carrera es que en todo el Perú la carrera sola la tienen 5 universidades y entre ellas esta la Universidad Nacional de
+      Ingeniería y esta carrera esta ubicada en la Facultad de Ingeniería Ambiental (FIA). En efecto, es una carrera con poca demanda pero con
+      un campo laboral bastante amplio.
+      <a href="https://www.opeisuni.com/" target="_know is here">Mayor información aquí</a> 
+      <h4>Especializaciones de Ingeniería Sanitaria</h4>
+
+<ul style="font-family:Arial">
+  <li>Tratamiento de agua potable</li>
+  <li>Tratamiento de aguas resiudales</li>
+  <li>Saneamiento Ambiental</li>
+  <li>Ingeniería Hidraúlica</li>
+</ul>
+    </p>
+
+    <h3><center>Will continue in process</center></h3>
+
+<br><br><br><br><br><br><br><br><br>
+
+    <p>"Hola, ingresa un número"</p>
+<label>Número a : </label>
+<input id="thing1" type="number" style="font-size: xx-large;" ><br><br>
+<label>Número b : </label>
+<input id="thing2" type="number" style="font-size: xx-large;"><br><br>
+<button onclick="suma()" style="font-size: xx-large;">a+b</button>
+<button onclick="division1()" style="font-size: xx-large;" >a/b</button>
+<button onclick="producto()" style="font-size: xx-large;" >a*b</button>
+<button onclick="resta1()" style="font-size: xx-large;" >a-b</button>
+<button onclick="resta2()" style="font-size: xx-large;" >b-a</button>
+<button onclick="division2()" style="font-size: xx-large;">b/a</button>
+<button onclick="exponentiation()" style="font-size: xx-large;">a**b</button>
+<p id="demo1"></p>
+
+<script>
+function suma(){
+    a = document.getElementById("thing1").value;
+    b = document.getElementById("thing2").value;
+    document.getElementById("demo1").innerHTML = Number(a) + Number(b);
+}
+function division1(){
+    a = document.getElementById("thing1").value;
+    b = document.getElementById("thing2").value;
+    document.getElementById("demo1").innerHTML = Number(a)/Number(b);
+}
+function producto(){
+    a = document.getElementById("thing1").value;
+    b = document.getElementById("thing2").value;
+    document.getElementById("demo1").innerHTML = Number(a)*Number(b);
+}
+function resta1(){
+    a = document.getElementById("thing1").value;
+    b = document.getElementById("thing2").value;
+    document.getElementById("demo1").innerHTML = Number(a)-Number(b);
+}
+function resta2(){
+    a = document.getElementById("thing1").value;
+    b = document.getElementById("thing2").value;
+    document.getElementById("demo1").innerHTML = Number(b)-Number(a);
+}
+function division2(){
+  a = document.getElementById("thing1").value;
+  b = document.getElementById("thing2").value;
+  document.getElementById("demo1").innerHTML = Number(b)/Number(a);
+}
+function exponentiation(){
+  a = document.getElementById("thing1").value;
+  b = document.getElementById("thing2").value;
+  document.getElementById("demo1").innerHTML = Number(a)**Number(b);
+}
+</script>
+
+
+</body>
+</html>
